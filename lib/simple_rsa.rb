@@ -3,7 +3,7 @@ require "simple_rsa/base"
 require "simple_rsa/file_system"
 require "simple_rsa/environment"
 require 'openssl'
-require 'Base64'
+require 'base64'
 
 module SimpleRSA
   def self.generate_keys_in data_path
